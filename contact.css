@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+*{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(248, 248, 212);
+}
+*{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  /* header */
+  header{
+        position: fixed;
+        height: 100px;
+        
+  }
+  
+  .navbar2{
+    margin-top:-108px;
+    height: 40px;
+    display: flex;
+    padding: 0px 30px;
+    background-color: burlywood;
+    
+  }
+  .logo{
+    display: flex;
+    align-self: start;
+    text-align: center;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+  }
+  .social{
+   width: 400px;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-end;
+   margin-left: 450px ;
+  }
+  .soc{
+    margin: 30px 0px 10px 15px ;
+   
+  }
+  .social div a {
+    color: white;  
+  }
+  
+  .pages{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+    
+  }
+  .pages a{
+    color:white
+    
+  }
+  a:hover{
+    background-color:wheat ;
+  
+  }
+  .ul{
+      list-style-type: none;
+      display: flex;
+      padding: 5px;
+      color: white;
+  }
+  .li{
+      padding-left: 10px;
+     
+  }
+.question{
+    margin-top:8%;
+}
+.question h1{
+    font-size: 35px;
+}
+.question p{
+    font-size:20px ;
+    text-align: center;
+}
+/* contact us change bgc*/
+#overlay{
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    max-width: 500px;
+  
+    width: 90%;
+    background: white;
+    margin: 17vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+/* line color */
+input[type="text"]:focus, textarea:focus{
+    border-bottom: 1px solid burlywood;
+}
+
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+
+/* scroolbar color */
+textarea::-webkit-scrollbar-thumb{
+    background-color: burlywood;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="submit"]{
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200px;
+    background: burlywood;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.error{
+    color: red;
+}
+
+.error-border{
+    border-bottom: 1px solid red;
+}
+
+#success{
+    color: green;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container2{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+/* footer */
+ .footer{
+    width: 1342px;
+    height: 200px;
+    background-color: burlywood;  
+    margin-top: 10%; 
+}
+
+.container{
+    height: inherit;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: space-evenly;
+
+}
+.li2{
+    list-style-type: none;
+    font-size: 15px;
+}
+.col1{
+    width: 440px;
+    box-sizing:border-box ;
+}
+.col2{
+    width: 440px;
+}
+.col3{
+    width: 440px;
+}
+.anchor{
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+}
+.anchor:hover{
+    color: chocolate;
+}
+h4{
+    color: black;
+    font-size: 20px;
+}
+.inner{
+    padding: 30px 0px 0px 150px;
+    width: 140px;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px ;
+}
+.med{
+    margin-left: 15px;
+    padding: 0px;
+}
+.h4{
+    padding: 0px 0px 15px 15px;
+    
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+} */
